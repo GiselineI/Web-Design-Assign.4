@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giseline</title>
+    <link rel="icon" href="centennialWebLogo.png" type="png">
+    <link rel="stylesheet" href="Assign4.css">
+</head>
+<body>
+
+    <header>
+        <a href="https://www.centennialcollege.ca/" class="headerLink">
+            <img src="CentennialCollegelogo.png">
+            
+            <div class="headerWords">
+                <h2> Centennial College</h2>
+                <h3> Continuing Education Course/ Instructor Evaluation</h3>
+            </div>
+        </a>
+    </header>
+
+
+    <main>
+             
+        <form method="POST" action="file:///C:/Users/gisel/OneDrive/Desktop/WID%20Lab%204/Index.html">
+               
+
+            <div class="introduction">
+                <div class="introSentence">
+                    <p> Please read each statement carefully and consider each one individually. Use the <span style="font-family:system-ui; font-weight:800">textbox</span> to write your opinion. Give only <span style= "font-family:system-ui; font-weight:800">one answer</span> for each multiple choice questions.</p>
+                </div>
+
+                <label for="courseCode" style="font-weight:bold"> Course Name/Code: 
+                    <textarea type="text" name="Course/CodeBox" id="Course/CodeBox" cols="60" rows="1.3" margin-right="48%" required></textarea>
+                </label>
+            
+                <label for="theInstructor" style="font-weight:bold"> Instructor
+                    <textarea type="text" name="instructorBox" id="instructorBox" cols="60" rows="1" required></textarea><br>
+                </label>
+
+                        
+                <div class="semesterYear">
+
+                    <div class="semester">
+
+                        <p>Semester:</p><br>
+                        <label for="fall">
+                            <input type="radio" name="Q1"> 
+                                Fall
+                        </label>  
+    
+                        <label for="winter">
+                            <input type="radio" name="Q1"> 
+                                Winter
+                        </label>   
+    
+                            <label for="springSummer">
+                                <input type="radio" name="Q1"> 
+                                    Spring/Summer 
+                            </label>   
+                            <br>
+                    </div>
+
+                        <label for="year"> Year: 
+                            <textarea type="text" name="year" id="year" cols="30" rows="1" required></textarea><br>
+                        </label>
+                        
+                       
+
+                </div>
+
+
+            </div>
+
+            <div class="instructor">
+                        
+                <div class="instructorHeader">
+                    <h4>Instructor</h4>
+                </div>
+
+                <h4>How would you rate the instructor's:</h4><br>
+
+            
+                    <div class="knowledge" >
+
+                        <p>&emsp;<strong>Knowledge</strong> of subject?</p>
+                        
+                        <div class="choiceQ1">
+                            <label for="excellent">
+                                <input type="radio" name="Q1"> 
+                                Exellent
+                            </label>  
+
+                            <label for="good">
+                                <input type="radio" name="Q1"> 
+                                Good
+                            </label>   
+
+                            <label for="fair">
+                                <input type="radio" name="Q1"> 
+                                Fair 
+                            </label>   
+
+                            <label for="notSatisfactory">
+                                <input type="radio" name="Q1"> 
+                                Not Satisfactory 
+                            </label>     
+                        </div>
+                        
+                    </div>
+                
+
+                <div class="helpfulness">
+                    <h4>&emsp;Helpfulness</h4>
+                
+                    <div class="choiceQ2">
+                        <label for="excellent">
+                            <input type="radio" name="Q2"> 
+                            Exellent 
+                        </label>  
+
+                        <label for="good">
+                            <input type="radio" name="Q2"> 
+                            Good
+                        </label>   
+
+                        <label for="fair">
+                            <input type="radio" name="Q2"> 
+                            Fair 
+                        </label>   
+
+                        <label for="notSatisfactory">
+                            <input type="radio" name="Q2"> 
+                            Not Satisfactory 
+                        </label>     
+                    </div>
+                          
+                </div>
+                
+
+                    <div class="courtesyRespect">
+                        <p>&emsp;<strong>Courtesy and respect</strong> for all studies?</p>
+
+                        <div class="choiceQ3">
+                            <label for="excellent">
+                                <input type="radio" name="Q3"> 
+                                Exellent 
+                            </label>  
+
+                            <label for="good">
+                                <input type="radio" name="Q3"> 
+                                Good
+                            </label>   
+
+                            <label for="fair">
+                                <input type="radio" name="Q3"> 
+                                Fair 
+                            </label>   
+
+                            <label for="notSatisfactory">
+                                <input type="radio" name="Q3"> 
+                                Not Satisfactory 
+                            </label>     
+                        </div>
+                          
+                    </div>
+             
+
+                    <div class="communication">
+                        <p>&emsp;<strong>Communication</strong> skills?</p>
+
+                        <div class="choiceQ4">
+                            <label for="excellent">
+                                <input type="radio" name="Q4"> 
+                                Exellent 
+                            </label>  
+
+                            <label for="good">
+                                <input type="radio" name="Q4"> 
+                                Good
+                            </label>   
+
+                            <label for="fair">
+                                <input type="radio" name="Q4"> 
+                                Fair 
+                            </label>   
+
+                            <label for="notSatisfactory">
+                                <input type="radio" name="Q4"> 
+                                Not Satisfactory 
+                            </label>     
+                        </div>
+                       
+                    </div>
+                
+
+                    <div class="performance">
+                        <p>&emsp; Overall <strong>perfomance</strong>? </p>
+
+                        <div class="choiceQ5">
+                            <label for="excellent">
+                                <input type="radio" name="Q5"> 
+                                Exellent 
+                            </label>  
+
+                            <label for="good">
+                                <input type="radio" name="Q5"> 
+                                Good
+                            </label>   
+
+                            <label for="fair">
+                                <input type="radio" name="Q5"> 
+                                Fair 
+                            </label>   
+
+                            <label for="notSatisfactory">
+                                <input type="radio" name="Q5"> 
+                                Not Satisfactory 
+                            </label>     
+                        </div>
+                            
+                        
+                    </div>
+                    <br>
+                    <br>
+
+            </div>
+
+            <div class="courseSection">
+
+                <div class="courseHeader">
+                    <h4>Course</h4>
+                </div>
+
+                <div class="courseMaterial">
+
+                    <p>&emsp; How would you rate the <b>course material</b>?</p>
+
+                    <div class="choiceQ6">
+                        <label for="excellent">
+                            <input type="radio" name="Q6"> 
+                            Exellent 
+                        </label>  
+
+                        <label for="good">
+                            <input type="radio" name="Q6"> 
+                            Good
+                        </label>   
+
+                        <label for="fair">
+                            <input type="radio" name="Q6"> 
+                            Fair 
+                        </label>   
+
+                        <label for="notSatisfactory">
+                            <input type="radio" name="Q6"> 
+                            Not Satisfactory 
+                        </label>     
+                    </div>
+                </div>
+
+
+                <div class="expectation">
+
+                    <p>&emsp; How much did this course meet your <strong>expectation</strong>?</p>
+
+                    <div class="choiceQ7">
+                        <label for="excellent">
+                            <input type="radio" name="Q7"> 
+                            Exellent 
+                        </label>  
+
+                        <label for="good">
+                            <input type="radio" name="Q7"> 
+                            Good
+                        </label>   
+
+                        <label for="fair">
+                            <input type="radio" name="Q7"> 
+                            Fair 
+                        </label>   
+
+                        <label for="notSatisfactory">
+                            <input type="radio" name="Q7"> 
+                            Not Satisfactory 
+                        </label>     
+                    </div>
+
+                    <div class="rateOverall">
+
+                        <p>&emsp; How would you rate this course  <strong>(overall)</strong>?</p>
+    
+                        <div class="choiceQ8">
+                            <label for="excellent">
+                                <input type="radio" name="Q8"> 
+                                Exellent 
+                            </label>  
+    
+                            <label for="good">
+                                <input type="radio" name="Q8"> 
+                                Good
+                            </label>   
+    
+                            <label for="fair">
+                                <input type="radio" name="Q8"> 
+                                Fair 
+                            </label>   
+    
+                            <label for="notSatisfactory">
+                                <input type="radio" name="Q8"> 
+                                Not Satisfactory 
+                            </label>     
+                        </div>
+                    </div>
+    
+
+                </div>
+
+            </div>
+            
+            <div class="generalInformation">
+
+                <div class="generalInformationHeader">
+                    <h4>General Information</h4>
+                </div>
+
+                <div class="courseOutline">
+
+                    <p>&emsp; Was the  <strong>course outline </strong> reviewed/explained at the beginning of your course?</p>
+
+                    <div class="choiceQ9">
+                        <label for="yes">
+                            <input type="radio" name="Q9"> 
+                            Yes
+                        </label>  
+
+                        <label for="no">
+                            <input type="radio" name="Q9"> 
+                            No
+                        </label>   
+
+                        <label for="notSure">
+                            <input type="radio" name="Q9"> 
+                            Not Sure
+                        </label>   
+
+                    </div>
+
+
+                </div>
+
+                <div class="recommend">
+
+                    <p>&emsp; Would you <strong> recommend </strong> this course to a friend with the same interests?</p>
+
+                    <div class="choiceQ9">
+                        <label for="yes">
+                            <input type="radio" name="Q10"> 
+                            Yes
+                        </label>  
+
+                        <label for="no">
+                            <input type="radio" name="Q10"> 
+                            No
+                        </label>   
+
+                        <label for="notSure">
+                            <input type="radio" name="Q10"> 
+                            Not Sure
+                        </label>   
+
+                    </div>
+
+                    
+                </div>
+
+            </div> 
+
+            <div class="otherComments">
+
+                <div class="otherCommentsHeader">
+                    <h4>Any Other Comments</h4>
+                </div>
+
+                <div class="bestThing">
+                    <Label for="bestThingText"> &emsp;What is the <strong>best thing</strong> about this course?
+                    <textarea type="text" name="bestThingText" id="bestThingText" cols="90" rows="2" margin-right="48%"></textarea> 
+                    </Label>
+                </div>
+
+                <div class="improve">
+                    <Label for="improveText"> &emsp;How can we <strong>improve</strong> this course?
+                    <textarea type="text" name="improveText" id="improveText" cols="90" rows="2" margin-right="48%"></textarea> 
+                    </Label>
+                </div>
+
+                <div class="Other">
+                    <Label for="bestThing"> &emsp;Other:
+                    <textarea type="text" name="Course/CodeBox" id="Course/CodeBox" cols="120%" rows="3" margin-right="48%"></textarea> 
+                    </Label>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="thankYou">  Thank you for completing the form!!! Please Submit Form. </div>
+
+            <div class="resetSubmit">
+            
+                <input type="reset" value="Reset"> 
+               <input type="submit" value="Submit">
+            </div>
+
+
+        </form>
+        
+    </main>
+
+
+    <footer>
+        <div class="webandEmail">
+            <p>Web: <a href="https://www.centennialcollege.ca/" class="websiteLink">https://www.centennialcollege.ca/</a>    &emsp;Email: <a href="mailto:ce@centennialcollege.ca" class="emailLink">continuingeducation@centennialcollege.ca</a></p>
+        </div>
+        <span><small>&copy;Copyright Giseline itil 301369182|Web Interface Design Winter semester</small></span>
+    </footer>
+</body>
+</html>

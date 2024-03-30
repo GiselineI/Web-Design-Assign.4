@@ -1,0 +1,229 @@
+
+html, body
+{
+    background-color: rgb(247, 247, 247);
+    font-family: arial;
+    border: double;
+    width:auto;
+    height:auto;       
+}
+
+header{
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    background-color:  rgb(193,205,35);
+    margin: 0;
+    padding: 0;
+    height: 18vh;
+    overflow: hidden;
+}
+
+img
+{
+    float: left; 
+    width: 45px;
+    height: auto;
+
+}
+
+.headerWords
+{
+    margin-right: 3%;
+    margin-top: 2.5%;
+
+}
+
+.introduction{
+text-align: center;
+}
+.introSentence
+{
+    margin-bottom: 2%;
+}
+.semesterYear
+{
+
+    display:flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin-top:1%;
+
+}
+
+.semester
+{
+    display:contents
+
+}
+
+.choiceQ1, .choiceQ2, .choiceQ3, .choiceQ4, .choiceQ5, .choiceQ6, .choiceQ7, .choiceQ8, .choiceQ9, .choiceQ10{
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.instructor
+{
+    
+    border-radius: 12%;
+    border:solid;
+    overflow:hidden;
+    margin-top: 1.5%;
+    border-color:rgb(247, 247, 247);
+    border-width:21px;
+    background:rgb(242, 242, 242);
+
+}
+
+.instructorHeader
+{
+
+    background-color: rgb(70,70,72);
+    height: 5vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: white
+    
+}
+
+.courseHeader
+{
+
+    background-color: rgb(70,70,72);
+    height: 5vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: white       
+}
+
+.courseSection
+{
+    border-radius: 15%;
+    border:solid;
+    overflow:hidden;
+    margin-top: 1.5%;
+    border-color:rgb(247, 247, 247);
+    border-width:21px;
+    background:rgb(242, 242, 242);
+}
+
+.rateOverall
+{
+    margin-bottom: 2%;
+}
+.generalInformationHeader
+{
+    background-color:rgb(70,70,72);
+    height: 5vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: white        
+}
+
+.generalInformation
+{
+    border-radius: 20%;
+    border:solid;
+    overflow:hidden;
+    margin-top: 1.5%;
+    border-color:rgb(247, 247, 247);
+    border-width:21px;
+    background:rgb(242, 242, 242);
+
+}
+.recommend
+{
+    margin-bottom:2%
+}
+
+.otherCommentsHeader
+{
+
+    background-color: rgb(70,70,72);
+    height: 5vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: white 
+}
+
+.otherComments
+{
+
+    border-radius: 17%;
+    border:solid;
+    overflow:hidden;
+    margin-top: 1.5%;
+    border-color:rgb(247, 247, 247);
+    border-width:21px;
+    background:rgb(243, 243, 243);
+}
+.bestThing{
+    margin-top:2%;
+    margin-bottom:2%;
+
+}
+.Other{
+
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.resetSubmit
+{
+    text-align: center;
+    margin-bottom:2%;
+}
+
+.resetButton
+{
+    text-align: center;
+}
+
+.webandEmail
+{
+    text-align: center;
+    color:aliceblue;
+    
+}
+
+textarea
+{
+
+    baseline-source: first;
+    resize: none;
+    border: solid;
+    border-radius: 10%;
+}
+
+.headerLink{
+    color: black;
+    text-decoration: none;
+}
+
+.websiteLink,.emailLink
+{
+    color:aliceblue;
+}
+.thankYou
+{
+    text-align: center;
+    margin-bottom: 1%;
+}
+footer
+{
+    text-align:center;
+    background: rgb(70,70,72);
+    color:aliceblue;
+}
+.thankSubmission
+{
+    text-align: center;
+    margin-top: 10%;
+    float: inline-start;
+    margin-left: 34%;
+}
